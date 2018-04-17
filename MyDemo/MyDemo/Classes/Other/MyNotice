@@ -1,0 +1,36 @@
+1. 属性名不能以new开头
+
+2. 只有在init开头的构造方法中，才允许对self进行赋值
+     .h
+    - (instancetype)initWithName:(NSString *)name;
+    .m
+    - (instancetype)initWithName:(NSString *)name
+    {
+        if (self = [super init]) {
+
+        }
+        return self;
+    }
+
+3.  dispatch_sync : 同步，不具备开启线程的能力
+    dispatch_async : 异步，具备开启线程的能力
+    并发队列 ：多个任务可以同时执行
+    串行队列 ：一个任务执行完后，再执行下一个任务
+
+4.凡是函数名中带有create\copy\new\retain等字眼, 都应该在不需要使用这个数据的时候进行release
+    GCD的数据类型在ARC环境下不需要再做release
+    CF(Core Foundation)的数据类型在ARC\MRC环境下都需要再做release
+
+5.  HMHomeViewController *homeVc = [[HMHomeViewController alloc] init];
+    [self.navigationController pushViewController:homeVc animated:YES];
+
+    控制器默认会自动找对应的xib来创建view
+    1.去掉Controller这个单词后的同名的xib：HMHomeView.xib
+    2.完全同名的xib：HMHomeViewController.xib
+
+
+
+
+
+
+

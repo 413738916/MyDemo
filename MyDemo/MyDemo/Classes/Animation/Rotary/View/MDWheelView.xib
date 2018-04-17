@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MDWheelView">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LuckyBaseBackground" translatesAutoresizingMaskIntoConstraints="NO" id="RUw-tv-N6V"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LuckyRotateWheel" translatesAutoresizingMaskIntoConstraints="NO" id="U3W-Xj-q1p"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmB-Vd-nXq">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="81" id="ag8-vs-JRS"/>
+                        <constraint firstAttribute="width" constant="81" id="bUC-LY-EaG"/>
+                    </constraints>
+                    <state key="normal" image="LuckyCenterButton"/>
+                    <state key="highlighted" image="LuckyCenterButtonPressed"/>
+                    <connections>
+                        <action selector="start:" destination="iN0-l3-epB" eventType="touchUpInside" id="cUJ-FJ-rYu"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="RUw-tv-N6V" secondAttribute="trailing" id="Anc-mN-wPW"/>
+                <constraint firstItem="RUw-tv-N6V" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HPs-fc-6PL"/>
+                <constraint firstItem="RUw-tv-N6V" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OoK-f1-kaN"/>
+                <constraint firstAttribute="bottom" secondItem="U3W-Xj-q1p" secondAttribute="bottom" id="UQf-0P-TpJ"/>
+                <constraint firstAttribute="trailing" secondItem="U3W-Xj-q1p" secondAttribute="trailing" id="Wxd-uN-XOJ"/>
+                <constraint firstItem="U3W-Xj-q1p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fe6-kY-Hci"/>
+                <constraint firstAttribute="bottom" secondItem="RUw-tv-N6V" secondAttribute="bottom" id="njY-9Y-w5y"/>
+                <constraint firstItem="cmB-Vd-nXq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="p3Y-7l-Oap"/>
+                <constraint firstItem="U3W-Xj-q1p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qt3-a8-N2F"/>
+                <constraint firstItem="cmB-Vd-nXq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wuV-qI-b2d"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="rotationView" destination="U3W-Xj-q1p" id="MnU-9h-we5"/>
+            </connections>
+            <point key="canvasLocation" x="23" y="-104"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LuckyBaseBackground" width="286" height="286"/>
+        <image name="LuckyCenterButton" width="81" height="81"/>
+        <image name="LuckyCenterButtonPressed" width="81" height="81"/>
+        <image name="LuckyRotateWheel" width="286" height="286"/>
+    </resources>
+</document>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MDGCDController">
+            <connections>
+                <outlet property="demoImgView" destination="XOc-vh-0UP" id="N8f-zH-U0b"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5A-pa-fyi">
+                    <state key="normal" title="GCD"/>
+                    <connections>
+                        <action selector="startGCD:" destination="-1" eventType="touchUpInside" id="olc-Wh-zJt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJc-np-p1C">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="NdX-Hs-Ro7"/>
+                        <constraint firstAttribute="height" constant="35" id="yxK-Sc-0CJ"/>
+                    </constraints>
+                    <state key="normal" title="Thread"/>
+                    <connections>
+                        <action selector="startThread:" destination="-1" eventType="touchUpInside" id="upH-7U-TjE"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XOc-vh-0UP">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="183" id="gm1-Xq-7av"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0x0-pM-79t">
+                    <state key="normal" title="Operation"/>
+                    <connections>
+                        <action selector="startOperation:" destination="-1" eventType="touchUpInside" id="CeZ-l3-9We"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0x0-pM-79t" firstAttribute="height" secondItem="PJc-np-p1C" secondAttribute="height" id="04P-4f-rp9"/>
+                <constraint firstItem="h5A-pa-fyi" firstAttribute="centerX" secondItem="XOc-vh-0UP" secondAttribute="centerX" id="391-JT-6Nx"/>
+                <constraint firstItem="h5A-pa-fyi" firstAttribute="leading" secondItem="PJc-np-p1C" secondAttribute="trailing" constant="24" id="Goc-9q-cvQ"/>
+                <constraint firstItem="h5A-pa-fyi" firstAttribute="baseline" secondItem="0x0-pM-79t" secondAttribute="baseline" id="OW0-b5-kQd"/>
+                <constraint firstItem="XOc-vh-0UP" firstAttribute="top" secondItem="PJc-np-p1C" secondAttribute="bottom" constant="48" id="SNj-53-p3N"/>
+                <constraint firstItem="0x0-pM-79t" firstAttribute="width" secondItem="PJc-np-p1C" secondAttribute="width" id="VDn-4I-Ukb"/>
+                <constraint firstItem="PJc-np-p1C" firstAttribute="baseline" secondItem="h5A-pa-fyi" secondAttribute="baseline" id="WMe-hG-fLS"/>
+                <constraint firstItem="0x0-pM-79t" firstAttribute="trailing" secondItem="XOc-vh-0UP" secondAttribute="trailing" id="Xjw-xp-cVH"/>
+                <constraint firstItem="PJc-np-p1C" firstAttribute="leading" secondItem="XOc-vh-0UP" secondAttribute="leading" id="Zcz-R1-El6"/>
+                <constraint firstItem="PJc-np-p1C" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="lFY-BT-M10"/>
+                <constraint firstItem="h5A-pa-fyi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pxF-Ak-Uh1"/>
+                <constraint firstItem="h5A-pa-fyi" firstAttribute="width" secondItem="PJc-np-p1C" secondAttribute="width" id="qpR-HQ-hdS"/>
+                <constraint firstItem="h5A-pa-fyi" firstAttribute="height" secondItem="PJc-np-p1C" secondAttribute="height" id="yFY-rZ-oIj"/>
+            </constraints>
+            <point key="canvasLocation" x="19" y="-69"/>
+        </view>
+    </objects>
+</document>
