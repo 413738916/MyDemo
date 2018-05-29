@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MDRotaryController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nn-iO-j5J">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="j9o-Cp-1Xf"/>
+                        <constraint firstAttribute="width" constant="61" id="kf0-XY-Q8G"/>
+                    </constraints>
+                    <state key="normal" title="结束"/>
+                    <connections>
+                        <action selector="stop:" destination="-1" eventType="touchUpInside" id="Dhs-A8-fnL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgX-lE-iPJ">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="EcR-Bt-ZdZ"/>
+                    </constraints>
+                    <state key="normal" title="开始"/>
+                    <connections>
+                        <action selector="start:" destination="-1" eventType="touchUpInside" id="imY-ZW-cY1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="sgX-lE-iPJ" firstAttribute="baseline" secondItem="3nn-iO-j5J" secondAttribute="firstBaseline" id="6oD-xq-mU3"/>
+                <constraint firstItem="sgX-lE-iPJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="48" id="FeN-S8-VOu"/>
+                <constraint firstItem="3nn-iO-j5J" firstAttribute="baseline" secondItem="sgX-lE-iPJ" secondAttribute="firstBaseline" id="Zsd-Jx-v7e"/>
+                <constraint firstAttribute="trailing" secondItem="3nn-iO-j5J" secondAttribute="trailing" constant="60" id="eFg-fy-NZZ"/>
+                <constraint firstItem="3nn-iO-j5J" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="56" id="egI-1r-SPs"/>
+                <constraint firstItem="sgX-lE-iPJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="uNr-TQ-79j"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="74.5"/>
+        </view>
+    </objects>
+</document>
