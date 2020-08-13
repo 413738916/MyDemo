@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5B6222241F328D0062B021 /* MBProgressHUD+MDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B621F241F328C0062B021 /* MBProgressHUD+MDTool.m */; };
+		2A5B6223241F328D0062B021 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B6220241F328C0062B021 /* MBProgressHUD.bundle */; };
+		2A68672B243DE8090065660F /* TTBlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A686729243DE8090065660F /* TTBlockController.m */; };
+		2A68672C243DE8090065660F /* TTBlockController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A68672A243DE8090065660F /* TTBlockController.xib */; };
+		2AD8B85524E4E4E000C8D55A /* MD_GCD.md in Resources */ = {isa = PBXBuildFile; fileRef = 2AD8B85424E4E4E000C8D55A /* MD_GCD.md */; };
+		2AD8B85E24E50BD500C8D55A /* MD_NSThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8B85C24E50BD500C8D55A /* MD_NSThreadController.m */; };
+		2AD8B85F24E50BD500C8D55A /* MD_NSThreadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD8B85D24E50BD500C8D55A /* MD_NSThreadController.xib */; };
+		2AD8B86324E50CD800C8D55A /* MD_GCDMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8B86124E50CD800C8D55A /* MD_GCDMainController.m */; };
+		2AD8B86424E50CD800C8D55A /* MD_GCDMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD8B86224E50CD800C8D55A /* MD_GCDMainController.xib */; };
+		2AD8B86624E5289F00C8D55A /* MD_NSThread.md in Resources */ = {isa = PBXBuildFile; fileRef = 2AD8B86524E5289F00C8D55A /* MD_NSThread.md */; };
+		2AD8B86824E528D300C8D55A /* MD_Operation.md in Resources */ = {isa = PBXBuildFile; fileRef = 2AD8B86724E528D300C8D55A /* MD_Operation.md */; };
 		948D72F91FE7780C0079D528 /* MDTemp.m in Sources */ = {isa = PBXBuildFile; fileRef = 948D72F71FE7780C0079D528 /* MDTemp.m */; };
 		948D72FA1FE7780C0079D528 /* MDTemp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948D72F81FE7780C0079D528 /* MDTemp.xib */; };
 		948D72FC1FE779A50079D528 /* MDDrawerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948D72FB1FE779A50079D528 /* MDDrawerController.xib */; };
@@ -28,8 +39,6 @@
 		9D73A1B61FD8D88500ADABE1 /* MDDrawingBoardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D73A1B41FD8D88500ADABE1 /* MDDrawingBoardController.xib */; };
 		9D73A1B91FD8D8E800ADABE1 /* MDPaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73A1B81FD8D8E800ADABE1 /* MDPaintView.m */; };
 		9D73A1BC1FD8D95300ADABE1 /* MDPaintPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73A1BB1FD8D95300ADABE1 /* MDPaintPath.m */; };
-		9D73A1C41FD9107F00ADABE1 /* MBProgressHUD+MDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73A1C31FD9107F00ADABE1 /* MBProgressHUD+MDTool.m */; };
-		9D73A1C61FD9108B00ADABE1 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D73A1C51FD9108B00ADABE1 /* MBProgressHUD.bundle */; };
 		9D73A1C91FD931FF00ADABE1 /* MDHandleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73A1C81FD931FE00ADABE1 /* MDHandleImageView.m */; };
 		9D73A1CD1FD9353800ADABE1 /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73A1CC1FD9353800ADABE1 /* UIImage+Tool.m */; };
 		9D8191221FE375C100B0A6A8 /* Singleton.h in Sources */ = {isa = PBXBuildFile; fileRef = 9D8191211FE3751400B0A6A8 /* Singleton.h */; };
@@ -55,6 +64,21 @@
 /* Begin PBXFileReference section */
 		0B520095E4B4E5F0D98DFF83 /* libPods-MyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FF5B0A7F3B90BD6705030E /* Pods-MyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2A5B621F241F328C0062B021 /* MBProgressHUD+MDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MDTool.m"; sourceTree = "<group>"; };
+		2A5B6220241F328C0062B021 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		2A5B6221241F328D0062B021 /* MBProgressHUD+MDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MDTool.h"; sourceTree = "<group>"; };
+		2A686728243DE8090065660F /* TTBlockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTBlockController.h; sourceTree = "<group>"; };
+		2A686729243DE8090065660F /* TTBlockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTBlockController.m; sourceTree = "<group>"; };
+		2A68672A243DE8090065660F /* TTBlockController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTBlockController.xib; sourceTree = "<group>"; };
+		2AD8B85424E4E4E000C8D55A /* MD_GCD.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = MD_GCD.md; sourceTree = "<group>"; };
+		2AD8B85B24E50BD500C8D55A /* MD_NSThreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MD_NSThreadController.h; sourceTree = "<group>"; };
+		2AD8B85C24E50BD500C8D55A /* MD_NSThreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD_NSThreadController.m; sourceTree = "<group>"; };
+		2AD8B85D24E50BD500C8D55A /* MD_NSThreadController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MD_NSThreadController.xib; sourceTree = "<group>"; };
+		2AD8B86024E50CD800C8D55A /* MD_GCDMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MD_GCDMainController.h; sourceTree = "<group>"; };
+		2AD8B86124E50CD800C8D55A /* MD_GCDMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD_GCDMainController.m; sourceTree = "<group>"; };
+		2AD8B86224E50CD800C8D55A /* MD_GCDMainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MD_GCDMainController.xib; sourceTree = "<group>"; };
+		2AD8B86524E5289F00C8D55A /* MD_NSThread.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = MD_NSThread.md; sourceTree = "<group>"; };
+		2AD8B86724E528D300C8D55A /* MD_Operation.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = MD_Operation.md; sourceTree = "<group>"; };
 		948D72F61FE7780C0079D528 /* MDTemp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTemp.h; sourceTree = "<group>"; };
 		948D72F71FE7780C0079D528 /* MDTemp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTemp.m; sourceTree = "<group>"; };
 		948D72F81FE7780C0079D528 /* MDTemp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MDTemp.xib; sourceTree = "<group>"; };
@@ -89,9 +113,6 @@
 		9D73A1B81FD8D8E800ADABE1 /* MDPaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPaintView.m; sourceTree = "<group>"; };
 		9D73A1BA1FD8D95300ADABE1 /* MDPaintPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPaintPath.h; sourceTree = "<group>"; };
 		9D73A1BB1FD8D95300ADABE1 /* MDPaintPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDPaintPath.m; sourceTree = "<group>"; };
-		9D73A1C21FD9107F00ADABE1 /* MBProgressHUD+MDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MDTool.h"; sourceTree = "<group>"; };
-		9D73A1C31FD9107F00ADABE1 /* MBProgressHUD+MDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MDTool.m"; sourceTree = "<group>"; };
-		9D73A1C51FD9108B00ADABE1 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		9D73A1C71FD931FE00ADABE1 /* MDHandleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDHandleImageView.h; sourceTree = "<group>"; };
 		9D73A1C81FD931FE00ADABE1 /* MDHandleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDHandleImageView.m; sourceTree = "<group>"; };
 		9D73A1CB1FD9353800ADABE1 /* UIImage+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tool.h"; sourceTree = "<group>"; };
@@ -140,6 +161,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5B621E241F32860062B021 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2A5B6220241F328C0062B021 /* MBProgressHUD.bundle */,
+				2A5B6221241F328D0062B021 /* MBProgressHUD+MDTool.h */,
+				2A5B621F241F328C0062B021 /* MBProgressHUD+MDTool.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		2A686721243DE7360065660F /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				2A686722243DE7480065660F /* Controller */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		2A686722243DE7480065660F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A686728243DE8090065660F /* TTBlockController.h */,
+				2A686729243DE8090065660F /* TTBlockController.m */,
+				2A68672A243DE8090065660F /* TTBlockController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AD8B85324E4E4E000C8D55A /* md */ = {
+			isa = PBXGroup;
+			children = (
+				2AD8B86724E528D300C8D55A /* MD_Operation.md */,
+				2AD8B86524E5289F00C8D55A /* MD_NSThread.md */,
+				2AD8B85424E4E4E000C8D55A /* MD_GCD.md */,
+			);
+			path = md;
+			sourceTree = "<group>";
+		};
 		32E559023977D7735FDFAAFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +307,7 @@
 		9D655FFB1FD7BB03006C9C3C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2A686721243DE7360065660F /* Block */,
 				9DFC688F1FE3B0090088696A /* Drawer */,
 				9D8191231FE3796F00B0A6A8 /* HItTest */,
 				9D934BA01FE269FF004F7A1E /* GCD */,
@@ -342,20 +402,10 @@
 		9D73A1BD1FD90E9500ADABE1 /* Categorty */ = {
 			isa = PBXGroup;
 			children = (
+				2A5B621E241F32860062B021 /* MBProgressHUD */,
 				9D73A1CA1FD9353800ADABE1 /* UIImage */,
-				9D73A1C11FD9107F00ADABE1 /* MBProgressHUD */,
 			);
 			path = Categorty;
-			sourceTree = "<group>";
-		};
-		9D73A1C11FD9107F00ADABE1 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				9D73A1C51FD9108B00ADABE1 /* MBProgressHUD.bundle */,
-				9D73A1C21FD9107F00ADABE1 /* MBProgressHUD+MDTool.h */,
-				9D73A1C31FD9107F00ADABE1 /* MBProgressHUD+MDTool.m */,
-			);
-			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		9D73A1CA1FD9353800ADABE1 /* UIImage */ = {
@@ -441,6 +491,7 @@
 		9D934BA01FE269FF004F7A1E /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				2AD8B85324E4E4E000C8D55A /* md */,
 				9D934BA11FE269FF004F7A1E /* Controller */,
 			);
 			path = GCD;
@@ -449,9 +500,15 @@
 		9D934BA11FE269FF004F7A1E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2AD8B86024E50CD800C8D55A /* MD_GCDMainController.h */,
+				2AD8B86124E50CD800C8D55A /* MD_GCDMainController.m */,
+				2AD8B86224E50CD800C8D55A /* MD_GCDMainController.xib */,
 				9D934BA21FE26A18004F7A1E /* MDGCDController.h */,
 				9D934BA31FE26A18004F7A1E /* MDGCDController.m */,
 				9D934BA41FE26A18004F7A1E /* MDGCDController.xib */,
+				2AD8B85B24E50BD500C8D55A /* MD_NSThreadController.h */,
+				2AD8B85C24E50BD500C8D55A /* MD_NSThreadController.m */,
+				2AD8B85D24E50BD500C8D55A /* MD_NSThreadController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -582,6 +639,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -602,17 +660,23 @@
 			files = (
 				9D4A55BD1FDE18D500DB5CED /* MDWheelView.xib in Resources */,
 				9D6560061FD7BB5A006C9C3C /* GesturesToUnlockController.xib in Resources */,
+				2AD8B85524E4E4E000C8D55A /* MD_GCD.md in Resources */,
+				2AD8B85F24E50BD500C8D55A /* MD_NSThreadController.xib in Resources */,
+				2A5B6223241F328D0062B021 /* MBProgressHUD.bundle in Resources */,
 				9D655FF41FD7A31F006C9C3C /* LaunchScreen.storyboard in Resources */,
+				2AD8B86624E5289F00C8D55A /* MD_NSThread.md in Resources */,
 				9D9B60971FDA3DD600A098C3 /* MDClockController.xib in Resources */,
 				9DFC688E1FE3AF440088696A /* MDHItTestController.xib in Resources */,
 				9D655FF11FD7A31F006C9C3C /* Assets.xcassets in Resources */,
 				9D73A1B61FD8D88500ADABE1 /* MDDrawingBoardController.xib in Resources */,
 				9D4A55B81FDE184900DB5CED /* MDRotaryController.xib in Resources */,
 				948D72FC1FE779A50079D528 /* MDDrawerController.xib in Resources */,
+				2AD8B86824E528D300C8D55A /* MD_Operation.md in Resources */,
+				2AD8B86424E50CD800C8D55A /* MD_GCDMainController.xib in Resources */,
 				9D655FEF1FD7A31F006C9C3C /* Main.storyboard in Resources */,
-				9D73A1C61FD9108B00ADABE1 /* MBProgressHUD.bundle in Resources */,
 				948D72FA1FE7780C0079D528 /* MDTemp.xib in Resources */,
 				9D4A55C41FDE5E7800DB5CED /* MDSimpleAnimationController.xib in Resources */,
+				2A68672C243DE8090065660F /* TTBlockController.xib in Resources */,
 				9D934B9F1FE216CC004F7A1E /* MyNotice in Resources */,
 				9D934BA61FE26A18004F7A1E /* MDGCDController.xib in Resources */,
 			);
@@ -646,6 +710,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5B6222241F328D0062B021 /* MBProgressHUD+MDTool.m in Sources */,
 				9D8191351FE3AD3700B0A6A8 /* ViewController.m in Sources */,
 				9D8191221FE375C100B0A6A8 /* Singleton.h in Sources */,
 				9DFC68AC1FE3BFB80088696A /* MDPresentTransitionAnimated.m in Sources */,
@@ -654,11 +719,13 @@
 				9D73A1BC1FD8D95300ADABE1 /* MDPaintPath.m in Sources */,
 				9D9B60961FDA3DD600A098C3 /* MDClockController.m in Sources */,
 				9DFC688D1FE3AF440088696A /* MDHItTestController.m in Sources */,
+				2A68672B243DE8090065660F /* TTBlockController.m in Sources */,
 				9D73A1C91FD931FF00ADABE1 /* MDHandleImageView.m in Sources */,
 				9D6560051FD7BB5A006C9C3C /* GesturesToUnlockController.m in Sources */,
 				9D934BA51FE26A18004F7A1E /* MDGCDController.m in Sources */,
 				9D73A1B51FD8D88500ADABE1 /* MDDrawingBoardController.m in Sources */,
 				9DFC68A91FE3BF960088696A /* MDPushC.m in Sources */,
+				2AD8B85E24E50BD500C8D55A /* MD_NSThreadController.m in Sources */,
 				9D4A55C31FDE5E7700DB5CED /* MDSimpleAnimationController.m in Sources */,
 				9D4A55BB1FDE189400DB5CED /* MDWheelView.m in Sources */,
 				9DFC68A81FE3BF960088696A /* MDModalC.m in Sources */,
@@ -666,8 +733,8 @@
 				9DFC68A71FE3BF960088696A /* MDBaseCModel.m in Sources */,
 				9D655FE91FD7A31E006C9C3C /* AppDelegate.m in Sources */,
 				9D81912D1FE37AFC00B0A6A8 /* MDHitTextGrennView.m in Sources */,
-				9D73A1C41FD9107F00ADABE1 /* MBProgressHUD+MDTool.m in Sources */,
 				9D4A55B71FDE184900DB5CED /* MDRotaryController.m in Sources */,
+				2AD8B86324E50CD800C8D55A /* MD_GCDMainController.m in Sources */,
 				9D73A1CD1FD9353800ADABE1 /* UIImage+Tool.m in Sources */,
 				948D72F91FE7780C0079D528 /* MDTemp.m in Sources */,
 				9DFC68941FE3B0D90088696A /* MDDrawerController.m in Sources */,
@@ -794,7 +861,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7TQ2WAE373;
 				INFOPLIST_FILE = MyDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ct.ios.MyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -809,7 +876,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7TQ2WAE373;
 				INFOPLIST_FILE = MyDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ct.ios.MyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

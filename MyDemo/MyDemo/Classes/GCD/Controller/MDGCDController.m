@@ -320,7 +320,7 @@
     // 3.下载图片2
     __block UIImage *image2 = nil;
     dispatch_group_async(group, queue, ^{
-        NSURL *url2 = [NSURL URLWithString:@"http://su.bdimg.com/static/superplus/img/logo_white_ee663702.png"];
+        NSURL *url2 = [NSURL URLWithString:@"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586352776747&di=b7d5e9490eed01d54d695049fcc573db&imgtype=0&src=http%3A%2F%2Fdl.ppt123.net%2Fpptbj%2F51%2F20181115%2Fmzj0ghw2xo2.jpg"];
         NSData *data2 = [NSData dataWithContentsOfURL:url2];
         image2 = [UIImage imageWithData:data2];
     });

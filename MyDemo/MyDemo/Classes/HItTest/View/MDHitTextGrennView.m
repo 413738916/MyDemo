@@ -33,9 +33,10 @@
     //    CGPoint buttonPoint = [self convertPoint:point toView:_button];
     
     // 从右边这个view上的点转换为坐标上的点
-    CGPoint buttonPoint =[_button convertPoint:point fromView:self];
-    if ([_button pointInside:buttonPoint withEvent:event]) return NO;
-    
+    CGPoint buttonPoint = [_button convertPoint:point fromView:self];
+    if ([_button pointInside:buttonPoint withEvent:event]) {
+        return NO;
+    }
     
     return [super pointInside:point withEvent:event];
 }

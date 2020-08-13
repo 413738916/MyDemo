@@ -53,14 +53,15 @@
 
 - (NSArray *)exampleArray {
     if (!_exampleArray) {
+        MDPushC *blockVC = [[MDPushC alloc]initWithName:@"Block" classStr:@"TTBlockController"];
         MDPushC *vc1 = [[MDPushC alloc]initWithName:@"HitTest" classStr:@"MDHItTestController"];
         MDPushC *vc2 = [[MDPushC alloc]initWithName:@"手势解锁" classStr:@"GesturesToUnlockController"];
         MDPushC *vc3 = [[MDPushC alloc]initWithName:@"画板" classStr:@"MDDrawingBoardController"];
         MDPushC *vc4 = [[MDPushC alloc]initWithName:@"动画" classStr:@"MDAnimationController"];
-        MDPushC *vc5 = [[MDPushC alloc]initWithName:@"多线程" classStr:@"MDGCDController"];
+        MDPushC *vc5 = [[MDPushC alloc]initWithName:@"多线程" classStr:@"MD_GCDMainController"];
         MDModalC *vc6 = [[MDModalC alloc]initWithName:@"抽屉" classStr:@"MDDrawerController"];
         MDPushC *vc7 = [[MDPushC alloc]initWithName:@"temp" classStr:@"MDTemp"];
-        _exampleArray = @[vc1, vc2, vc3, vc4, vc5, vc6,vc7] ;
+        _exampleArray = @[blockVC, vc1, vc2, vc3, vc4, vc5, vc6,vc7] ;
         
     }
     return _exampleArray;
@@ -118,14 +119,26 @@
     
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"返回" style:UIBarButtonItemStyleDone target:nil action:nil];
     
-    UIViewController *vc = [[model.vcClass alloc]init];
+    Class class = model.vcClass;
+    UIViewController *vc = [[class alloc] init];
+    NSString *nibPath = [[NSBundle mainBundle] pathForResource:NSStringFromClass(class) ofType:@"nib"];
+    if (nibPath != nil) {
+        vc = [[class alloc] initWithNibName:NSStringFromClass(class) bundle:nil];
+    }
     vc.navigationItem.title = model.title;
     [self.navigationController pushViewController:vc animated:YES];
+
 }
 
 - (void)modelPushViewController:(MDBaseCModel *)model {
-    
-    UIViewController *presentVC = [[model.vcClass alloc] init];
+    Class class = model.vcClass;
+    UIViewController *presentVC = [[class alloc] init];
+    NSString *nibPath = [[NSBundle mainBundle] pathForResource:NSStringFromClass(class) ofType:@"nib"];
+    if (nibPath != nil) {
+        presentVC = [[class alloc] initWithNibName:NSStringFromClass(class) bundle:nil];
+    }
+
+    presentVC.modalPresentationStyle = UIModalPresentationOverFullScreen;
     presentVC.transitioningDelegate = self;
     [self addScreenLeftEdgePanGestureRecognizer:presentVC.view];
     [self presentViewController:presentVC animated:YES completion:nil];
