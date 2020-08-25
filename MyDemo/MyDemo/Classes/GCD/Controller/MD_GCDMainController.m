@@ -19,14 +19,14 @@
 
 - (NSArray *)titleArray {
     if (!_titleArray) {
-        _titleArray = @[@"NSThread", @"时钟", @"转盘"];
+        _titleArray = @[@"NSThread", @"GCD", @"转盘"];
     }
     return _titleArray;
 }
 
 - (NSArray *)exampleArray {
     if (!_exampleArray) {
-        _exampleArray = @[@"MD_NSThreadController", @"MDClockController", @"MDRotaryController"];
+        _exampleArray = @[@"MD_NSThreadController", @"MD_GCDController", @"MDRotaryController"];
     }
     return _exampleArray;
 }

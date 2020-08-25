@@ -45,8 +45,8 @@
 		9D81912D1FE37AFC00B0A6A8 /* MDHitTextGrennView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D81912C1FE37AFC00B0A6A8 /* MDHitTextGrennView.m */; };
 		9D8191351FE3AD3700B0A6A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8191311FE3AD3700B0A6A8 /* ViewController.m */; };
 		9D934B9F1FE216CC004F7A1E /* MyNotice in Resources */ = {isa = PBXBuildFile; fileRef = 9D934B9E1FE216CB004F7A1E /* MyNotice */; };
-		9D934BA51FE26A18004F7A1E /* MDGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D934BA31FE26A18004F7A1E /* MDGCDController.m */; };
-		9D934BA61FE26A18004F7A1E /* MDGCDController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D934BA41FE26A18004F7A1E /* MDGCDController.xib */; };
+		9D934BA51FE26A18004F7A1E /* MD_GCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D934BA31FE26A18004F7A1E /* MD_GCDController.m */; };
+		9D934BA61FE26A18004F7A1E /* MD_GCDController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D934BA41FE26A18004F7A1E /* MD_GCDController.xib */; };
 		9D9B60901FDA38CE00A098C3 /* MDAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B608F1FDA38CE00A098C3 /* MDAnimationController.m */; };
 		9D9B60961FDA3DD600A098C3 /* MDClockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B60941FDA3DD600A098C3 /* MDClockController.m */; };
 		9D9B60971FDA3DD600A098C3 /* MDClockController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D9B60951FDA3DD600A098C3 /* MDClockController.xib */; };
@@ -123,9 +123,9 @@
 		9D8191301FE3AD3700B0A6A8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9D8191311FE3AD3700B0A6A8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D934B9E1FE216CB004F7A1E /* MyNotice */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MyNotice; sourceTree = "<group>"; };
-		9D934BA21FE26A18004F7A1E /* MDGCDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDGCDController.h; sourceTree = "<group>"; };
-		9D934BA31FE26A18004F7A1E /* MDGCDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDGCDController.m; sourceTree = "<group>"; };
-		9D934BA41FE26A18004F7A1E /* MDGCDController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDGCDController.xib; sourceTree = "<group>"; };
+		9D934BA21FE26A18004F7A1E /* MD_GCDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD_GCDController.h; sourceTree = "<group>"; };
+		9D934BA31FE26A18004F7A1E /* MD_GCDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD_GCDController.m; sourceTree = "<group>"; };
+		9D934BA41FE26A18004F7A1E /* MD_GCDController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MD_GCDController.xib; sourceTree = "<group>"; };
 		9D9B608E1FDA38CE00A098C3 /* MDAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAnimationController.h; sourceTree = "<group>"; };
 		9D9B608F1FDA38CE00A098C3 /* MDAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAnimationController.m; sourceTree = "<group>"; };
 		9D9B60931FDA3DD600A098C3 /* MDClockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDClockController.h; sourceTree = "<group>"; };
@@ -503,9 +503,9 @@
 				2AD8B86024E50CD800C8D55A /* MD_GCDMainController.h */,
 				2AD8B86124E50CD800C8D55A /* MD_GCDMainController.m */,
 				2AD8B86224E50CD800C8D55A /* MD_GCDMainController.xib */,
-				9D934BA21FE26A18004F7A1E /* MDGCDController.h */,
-				9D934BA31FE26A18004F7A1E /* MDGCDController.m */,
-				9D934BA41FE26A18004F7A1E /* MDGCDController.xib */,
+				9D934BA21FE26A18004F7A1E /* MD_GCDController.h */,
+				9D934BA31FE26A18004F7A1E /* MD_GCDController.m */,
+				9D934BA41FE26A18004F7A1E /* MD_GCDController.xib */,
 				2AD8B85B24E50BD500C8D55A /* MD_NSThreadController.h */,
 				2AD8B85C24E50BD500C8D55A /* MD_NSThreadController.m */,
 				2AD8B85D24E50BD500C8D55A /* MD_NSThreadController.xib */,
@@ -678,7 +678,7 @@
 				9D4A55C41FDE5E7800DB5CED /* MDSimpleAnimationController.xib in Resources */,
 				2A68672C243DE8090065660F /* TTBlockController.xib in Resources */,
 				9D934B9F1FE216CC004F7A1E /* MyNotice in Resources */,
-				9D934BA61FE26A18004F7A1E /* MDGCDController.xib in Resources */,
+				9D934BA61FE26A18004F7A1E /* MD_GCDController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,7 +722,7 @@
 				2A68672B243DE8090065660F /* TTBlockController.m in Sources */,
 				9D73A1C91FD931FF00ADABE1 /* MDHandleImageView.m in Sources */,
 				9D6560051FD7BB5A006C9C3C /* GesturesToUnlockController.m in Sources */,
-				9D934BA51FE26A18004F7A1E /* MDGCDController.m in Sources */,
+				9D934BA51FE26A18004F7A1E /* MD_GCDController.m in Sources */,
 				9D73A1B51FD8D88500ADABE1 /* MDDrawingBoardController.m in Sources */,
 				9DFC68A91FE3BF960088696A /* MDPushC.m in Sources */,
 				2AD8B85E24E50BD500C8D55A /* MD_NSThreadController.m in Sources */,

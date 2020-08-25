@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MDGCDController : UIViewController
+@interface MD_GCDController : UIViewController
 
 @end
